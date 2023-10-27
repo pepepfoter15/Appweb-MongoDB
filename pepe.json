@@ -1,0 +1,21 @@
+{
+   "_id": ObjectId("5f50a514063d6d6711f1d4f4"),
+   "nombre": "Juan Pérez",
+   "edad": 30,
+   "email": "juan.perez@example.com",
+   "direcciones": [
+      {
+         "calle": "Calle Principal",
+         "ciudad": "Ciudad Ejemplo",
+         "pais": "Ejemplo"
+      },
+      {
+         "calle": "Avenida Secundaria",
+         "ciudad": "Otra Ciudad",
+         "pais": "Otro País"
+      }
+   ],
+   "intereses": ["viajes", "tecnología", "deportes"],
+   "activo": true,
+   "fecha_registro": ISODate("2023-10-26T15:30:00Z")
+}
