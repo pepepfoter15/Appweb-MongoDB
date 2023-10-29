@@ -19,3 +19,66 @@
    "activo": true,
    "fecha_registro": ISODate("2023-10-26T15:30:00Z")
 }
+{
+   "_id": ObjectId("5f50a514063d6d6711f1d4f5"),
+   "nombre": "María López",
+   "edad": 25,
+   "email": "maria.lopez@example.com",
+   "direcciones": [
+      {
+         "calle": "Calle Central",
+         "ciudad": "Ciudad Principal",
+         "pais": "Principal"
+      },
+      {
+         "calle": "Avenida Central",
+         "ciudad": "Otra Ciudad",
+         "pais": "Otro País"
+      }
+   ],
+   "intereses": ["arte", "música", "lectura"],
+   "activo": true,
+   "fecha_registro": ISODate("2023-10-27T14:45:00Z")
+}
+{
+   "_id": ObjectId("5f50a514063d6d6711f1d4f6"),
+   "nombre": "Luis González",
+   "edad": 28,
+   "email": "luis.gonzalez@example.com",
+   "direcciones": [
+      {
+         "calle": "Calle Secundaria",
+         "ciudad": "Ciudad Ejemplo",
+         "pais": "Ejemplo"
+      },
+      {
+         "calle": "Avenida Terciaria",
+         "ciudad": "Otra Ciudad",
+         "pais": "Otro País"
+      }
+   ],
+   "intereses": ["deportes", "tecnología", "viajes"],
+   "activo": true,
+   "fecha_registro": ISODate("2023-10-28T12:15:00Z")
+}
+{
+   "_id": ObjectId("5f50a514063d6d6711f1d4f7"),
+   "nombre": "Ana Martínez",
+   "edad": 32,
+   "email": "ana.martinez@example.com",
+   "direcciones": [
+      {
+         "calle": "Calle Norte",
+         "ciudad": "Ciudad Norte",
+         "pais": "Norte"
+      },
+      {
+         "calle": "Avenida Principal",
+         "ciudad": "Otra Ciudad",
+         "pais": "Otro País"
+      }
+   ],
+   "intereses": ["música", "deportes", "viajes"],
+   "activo": true,
+   "fecha_registro": ISODate("2023-10-29T10:30:00Z")
+}
