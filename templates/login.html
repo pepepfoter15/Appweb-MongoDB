@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de la Colección</title>
+</head>
+<body>
+    <h1>Datos de la Colección</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in miColeccion_all %}
+                <tr>
+                    <td>{{ item.nombre }}</td>
+                    <td>{{ item.edad }}</td>
+                    <td>{{ item.email }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+
